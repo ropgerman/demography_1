@@ -19,11 +19,11 @@ import pyodbc
 import mysql.connector
 from mysql.connector import Error
 try:
-    cnx = mysql.connector.connect(user='root', 
-                                  password='plymouth96',
-                                  host='localhost',
-                                  port='3306',
-                                  database='health_income')
+    cnx = mysql.connector.connect(user='XXXX', 
+                                  password='XXXX',
+                                  host='XXXX',
+                                  port='XXXX',
+                                  database='XXXX')
  
     if cnx.is_connected():
         print("Connected to MySQL database")
@@ -41,11 +41,11 @@ finally:
 ######################################
 
 
-cxn = mysql.connector.connect(user='root', 
-                              password='plymouth96',
-                              host='localhost',
-                              port='3306',
-                              database='health_income')
+cxn = mysql.connector.connect(user='XXXX', 
+                              password='XXXX',
+                              host='XXXX',
+                              port='XXXX',
+                              database='XXXX')
 
 # Print connection object (check if connection was succesfull)
 print(cxn)
